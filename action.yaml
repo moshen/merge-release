@@ -12,7 +12,7 @@ inputs:
     required: true
   NPM_AUTH_TOKEN:
     description: 'NPM_AUTH_TOKEN' 
-    required: true
+    required: false
   NPM_PRIVATE:
     description: 'NPM_PRIVATE' 
     required: false
