@@ -32,7 +32,7 @@ You can configure some aspects of merge-release action by passing some environme
 
 * **GITHUB_TOKEN (required)**
   * Github token to allow tagging the version.
-* **NPM_AUTH_TOKEN (required)**
+* **NPM_AUTH_TOKEN**
   * NPM Auth Token to publish to NPM, read [here](https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets) how to setup it as a secret.
 * **DEPLOY_DIR**
   * The path where the dist `package.json` is to run npm publish. Defaults to the root dir.
